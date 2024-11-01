@@ -32,16 +32,16 @@ h1{
     margin: 1px 0;
     color: white;
     background-color: rgb(255, 170, 0);
-    border: solid 1px orange;
+    border: solid 1px rgb(255, 166, 1);
     border-radius: 6px;
 }
 .Form-Item-Input{
-    background-color: rgb(255, 188, 4);
+    background-color: rgb(189, 187, 181);
     text-align: left;
     padding: 10px 100px;
 }
 .Form-Item-Textarea{
-    background-color: rgb(255, 187, 0);
+    background-color: rgb(180, 175, 161);
     padding: 100px 107px;
 }
 
