@@ -1,0 +1,53 @@
+body{
+    text-align: center;
+}
+h1{
+    color: rgb(0, 167, 8);
+    text-align: center;
+}
+.Form{
+    max-width: 720px;
+    background-color: aqua;
+    margin: 0 auto;
+}
+.Form-Item{
+    display: flex;
+    align-items: center;
+    border-top: solid black 1px;
+    padding: 30px;
+    text-align: right;
+}
+.Form-Item:nth-child(6){
+    border-bottom: 1px solid #111;
+}
+.Form-Item-Label{
+    max-width: 248px;
+    width: 100px;
+    font-weight: bold;
+    float: left;
+    margin: auto;
+}
+.Form-Item-Label-Required{
+    padding: 1px 1px;
+    margin: 1px 0;
+    color: white;
+    background-color: rgb(255, 170, 0);
+    border: solid 1px orange;
+    border-radius: 6px;
+}
+.Form-Item-Input{
+    background-color: rgb(189, 187, 181);
+    text-align: left;
+    padding: 10px 100px;
+}
+.Form-Item-Textarea{
+    background-color: rgb(180, 175, 161);
+    padding: 100px 107px;
+}
+
+
+.Form-Btn{
+    padding: 20px 120px;
+    font-size: 20px;
+    background-color:rgb(255, 188, 4) ;
+}
